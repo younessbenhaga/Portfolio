@@ -1,0 +1,21 @@
+section{
+    
+    margin: 10px 5px;
+    overflow: scroll;
+    border-radius: 20px;
+    background: white; 
+    backdrop-filter: blur(1.5rem);
+    height: calc(100vh - 90px);
+    min-height: 500px;
+    min-width: 200px;
+}
+.part-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media (max-width:500px) {
+    .part-1 h4{
+        font-size: small;
+    }
+}

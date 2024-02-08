@@ -1,0 +1,20 @@
+.APropos{
+    
+    margin: 10px 5px;
+    overflow: scroll;
+    border-radius: 20px;
+   
+    backdrop-filter: blur(1.5rem);
+    height: calc(100vh - 90px);
+    min-height: 500px;
+    min-width: 200px;
+    background-image: url('./../../img/Design\ sans\ titre\ \(6\).png'); 
+    background-size: cover;
+    
+}
+.part-3{
+   min-height: 200px;
+}
+.part-3 img{
+    min-width: 200px;
+ }

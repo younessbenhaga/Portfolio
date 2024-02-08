@@ -1,0 +1,31 @@
+.nav-link {
+    color: brown;
+    border: 0.5px solid white;
+}
+.nav-link:hover {
+    background-color: rgb(213,234,254);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: rgb(132, 196, 255);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar{
+    min-width: 200px;
+   
+}
+#navbarNavDropdown ul{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+@media (min-width:768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
